@@ -1,0 +1,26 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Yusuf Syaifudin'
+
+theme = "lynx"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+name = "Yusuf Syaifudin"
+headline = "Software Engineer"
+image = "author.jpg"
+links = [
+    { linkedin = { href = "https://www.linkedin.com/in/yusufsyaifudin/", text = "Yusuf Syaifudin" } },
+    { github = { href = "https://github.com/yusufsyaifudin", text = "Github" } },
+    { link = { href = "https://yusufs.medium.com/", text = "Medium Blogpost", icon = "medium" } },
+    # { twitter = { href = "https://twitter.com/yusuf_udin", text = "@yusuf_udin" } },
+]
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
